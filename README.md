@@ -25,6 +25,15 @@ BEIJING: Right now this dataset is not supported.
 
 ---
 
+## Files
+
+- `utils.py` file: preprocess datasets;
+- `basic_structure.py` file: pytorch implementation of basic graph neural network structure
+- `IGNNK_D_METR_LA.ipynb` file: a training example on METR_LA dataset
+- `IGNNK_U_Central_missing.ipynb` file: present the kriging of central US precipitation (USHCN weather condition)
+
+---
+
 ## Acknowledgment:
 The code is the pytorch version of the official code [INCREASE](https://github.com/zhengchuanpan/INCREASE/tree/main).
 
