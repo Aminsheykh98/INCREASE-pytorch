@@ -13,7 +13,6 @@ import load_metrla
 
 args = parser.parse_opt()
 
-
 (train_x_gp_fw, train_x_gp_bw, train_gp_fw, train_gp_bw, train_TE, train_y,
  val_x_gp_fw, val_x_gp_bw, val_gp_fw, val_gp_bw, val_TE, val_y,
  test_x_gp_fw, test_x_gp_bw, test_gp_fw, test_gp_bw, test_TE, test_y, mean, std) \
@@ -32,12 +31,9 @@ train_x_gp_bw_epoch = torch.reshape(
     train_x_gp_bw_epoch, shape=(-1, num_train, args.h, args.K, 1)
 )
 
-
 model = model.Model(mean, std, args)
 model = model.to(args.device)
 optimizer = torch.optim.Adam(model.parameters(), args.lr)
-# criterion = torch.nn.MSELoss()
-
 
 for epoch in range(args.epochs):
     if args.wait >= args.patience:
