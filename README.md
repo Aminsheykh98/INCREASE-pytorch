@@ -1,6 +1,6 @@
 # INCREASE-pytorch
 
-Unofficial code of paper 'INCREASE: Inductive Graph Representation Learning for Spatio-Temporal Kriging' in Pytorch.
+Unofficial code of paper 'INCREASE: Inductive Graph Representation Learning for Spatio-Temporal Kriging'[^1] in Pytorch.
 
 ---
 
@@ -27,10 +27,11 @@ BEIJING: Right now this dataset is not supported.
 
 ## Files
 
-- `utils.py` file: preprocess datasets;
-- `basic_structure.py` file: pytorch implementation of basic graph neural network structure
-- `IGNNK_D_METR_LA.ipynb` file: a training example on METR_LA dataset
-- `IGNNK_U_Central_missing.ipynb` file: present the kriging of central US precipitation (USHCN weather condition)
+- `load_metrla.py`: Loads and preprocesses the metr-la dataset.
+- `parser.py`: Argparser file which contains necessary parameters and hyperparameters.
+- `model.py`: File that contains model architecture.
+- `utils.py`: Contains mse_loss and metric functions.
+- `run.py`: Trains and tests the INCREASE on metr-la dataset.
 
 ---
 
@@ -43,4 +44,6 @@ The code is the pytorch version of the official code [INCREASE](https://github.c
 > [!NOTE]
 > This repository is the translation of the source code (which is in Tensorflow) to Pytorch. This code is not the stable version, and will collapse after 5 epochs as it is mentioned [here](https://github.com/zhengchuanpan/INCREASE/issues/2).
 
+---
+[^1]: Zheng, Chuanpan, et al. "Increase: Inductive graph representation learning for spatio-temporal kriging." Proceedings of the ACM Web Conference 2023. 2023.
 
