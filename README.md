@@ -44,6 +44,6 @@ The code is the pytorch version of the official code [INCREASE](https://github.c
 > [!NOTE]
 > This repository is the translation of the source code (which is in Tensorflow) to Pytorch. This code is not the stable version, and will collapse after 5 epochs as it is mentioned [here](https://github.com/zhengchuanpan/INCREASE/issues/2).
 
----
+
 [^1]: Zheng, Chuanpan, et al. "Increase: Inductive graph representation learning for spatio-temporal kriging." Proceedings of the ACM Web Conference 2023. 2023.
 
