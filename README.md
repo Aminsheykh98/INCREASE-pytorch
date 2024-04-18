@@ -10,9 +10,13 @@ Unofficial code of paper 'INCREASE: Inductive Graph Representation Learning for 
 ---
 
 ## Requirements:
-  + torch
-  + numpy
-  + pandas
-  + h5py
-  + argparse
+    + torch
+    + numpy
+    + pandas
+    + h5py
+    + argparse
 
+---
+
+## Datasets:
+    The traffic data files for Los Angeles (METR-LA), i.e., metr-la.h5, are available at [Google Drive](https://drive.google.com/drive/folders/10FOTa6HXPqX8Pf5WRoRwcFnW9BrNZEIX), and should be put into the data/ folder.
