@@ -19,4 +19,14 @@ Unofficial code of paper 'INCREASE: Inductive Graph Representation Learning for 
 ---
 
 ## Datasets:
-The traffic data files for Los Angeles (METR-LA), i.e., metr-la.h5, are available at [Google Drive](https://drive.google.com/drive/folders/10FOTa6HXPqX8Pf5WRoRwcFnW9BrNZEIX), and should be put into the data/ folder.
+METR-LA: The traffic data files for Los Angeles (METR-LA), i.e., metr-la.h5, are available at [Google Drive](https://drive.google.com/drive/folders/10FOTa6HXPqX8Pf5WRoRwcFnW9BrNZEIX), and should be put into the dataset/metr-la/ folder.
+BEIJING: Right now this dataset is not supported.
+
+## Acknowledgment:
+The code is the pytorch version of the official code [INCREASE](https://github.com/zhengchuanpan/INCREASE/tree/main).
+
+## Notes:
+This repository is the translation of the source code (which is in Tensorflow) to Pytorch. This code is not the stable version, and will collapse after 5 epochs as it is mentioned [here](https://github.com/zhengchuanpan/INCREASE/issues/2).
+
+
+
