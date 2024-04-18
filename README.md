@@ -10,4 +10,9 @@ Unofficial code of paper 'INCREASE: Inductive Graph Representation Learning for 
 ---
 
 ## Requirements:
---
+  + torch
+  + numpy
+  + pandas
+  + h5py
+  + argparse
+
